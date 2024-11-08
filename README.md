@@ -175,6 +175,8 @@ source /home/zsx/anaconda3/etc/profile.d/conda.sh ;  conda activate serverless
 <details>
 <summary>Compile (Skip, already done in AE server)</summary>
 
+| Please clone all repositories under `/home/zsx/`
+
 ```jsx
 export CUDA_HOME=/usr/local/cuda-12.4/
 export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64:/home/zsx/spdk/build/lib:$LD_LIBRARY_PATH
@@ -187,7 +189,7 @@ export CPLUS_INCLUDE_PATH=/home/zsx/spdk/build/include:/home/zsx/spdk/dpdk/build
 <summary>Compile PyTorch</summary>
 
 ```jsx
-git clone git@github.com:ShaoxunZeng/PyTorch-serverless.git PyTorch
+git clone git@github.com:ShaoxunZeng/PyTorch-Medusa.git PyTorch
 git submodule update --init --recursive
 ```
 
@@ -213,7 +215,7 @@ CC=`which gcc-9` CXX=`which g++-9` CXXFLAGS='-Wno-maybe-uninitialized -Wno-unini
 <summary>Compile SPDK</summary>
 
 ```jsx
-git clone git@github.com:ShaoxunZeng/spdk-serverless.git spdk
+git clone git@github.com:ShaoxunZeng/SPDK-Medusa.git spdk
 git submodule update --init
 ```
 
