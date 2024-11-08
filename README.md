@@ -270,11 +270,6 @@ CC=`which gcc-9` CXX=`which g++-9` MAX_JOBS=32 python setup.py develop
 <details>
 <summary>Configure Environments (Skip, already done in AE server)</summary>
 
-CUDA driver persistent mode to reduce latency.
-```jsx
-nvidia-smi -pm=1
-```
-
 [Configure 1GB huge page](https://github.com/lagopus/lagopus/blob/master/docs/how-to-allocate-1gb-hugepages.md), which would affect the SPDK init time.
 
 Add model names to `model_names` in `scripts/serverless_llm.py`.
@@ -293,6 +288,11 @@ Notice, we will kill python process multiple times during runing experiments.
 GPU could be used by others, please run `pkill -9 python` and `pkill -9 python3` first.
 
 All data and results could be found in backups, e.g., the expected results are in `results-backup`.
+
+CUDA driver persistent mode to reduce latency.
+```jsx
+nvidia-smi -pm=1
+```
 
 ```jsx
 export CUDA_HOME=/usr/local/cuda-12.4/
