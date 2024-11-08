@@ -264,15 +264,16 @@ CC=`which gcc-9` CXX=`which g++-9` MAX_JOBS=32 python setup.py develop
 /usr/bin/g++ -I/usr/local/cuda/include -fPIC -shared -o libmylib.so mylib.cpp -ldl -L/usr/local/cuda/lib64 -lcudart -lcuda 
 ```
 
-```jsx
-nvidia-smi -pm=1
-```
-
 </details>
 </details>
 
 <details>
 <summary>Configure Environments (Skip, already done in AE server)</summary>
+
+CUDA driver persistent mode to reduce latency.
+```jsx
+nvidia-smi -pm=1
+```
 
 [Configure 1GB huge page](https://github.com/lagopus/lagopus/blob/master/docs/how-to-allocate-1gb-hugepages.md), which would affect the SPDK init time.
 
