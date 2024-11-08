@@ -1,0 +1,1412 @@
+node idx: 2
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 2,3156,3157,3158,3,
+
+node idx: 6
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 4,3159,3160,-1,
+
+node idx: 8
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 17,3160,3161,-1,
+
+node idx: 11
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 18,3162,3163,878,
+
+node idx: 13
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 21,3163,3164,3165,22,
+
+node idx: 17
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 23,3166,3167,-1,
+
+node idx: 19
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 24,3167,3168,-1,
+
+node idx: 22
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 25,3169,3170,878,
+
+node idx: 24
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 28,3170,3171,3172,29,
+
+node idx: 28
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 30,3173,3174,-1,
+
+node idx: 30
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 31,3174,3175,-1,
+
+node idx: 33
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 32,3176,3177,878,
+
+node idx: 35
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 35,3177,3178,3179,36,
+
+node idx: 39
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 37,3180,3181,-1,
+
+node idx: 41
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 38,3181,3182,-1,
+
+node idx: 44
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 39,3183,3184,878,
+
+node idx: 46
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 42,3184,3185,3186,43,
+
+node idx: 50
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 44,3187,3188,-1,
+
+node idx: 52
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 45,3188,3189,-1,
+
+node idx: 55
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 46,3190,3191,878,
+
+node idx: 57
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 49,3191,3192,3193,50,
+
+node idx: 61
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 51,3194,3195,-1,
+
+node idx: 63
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 52,3195,3196,-1,
+
+node idx: 66
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 53,3197,3198,878,
+
+node idx: 68
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 56,3198,3199,3200,57,
+
+node idx: 72
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 58,3201,3202,-1,
+
+node idx: 74
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 59,3202,3203,-1,
+
+node idx: 77
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 60,3204,3205,878,
+
+node idx: 79
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 63,3205,3206,3207,64,
+
+node idx: 83
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 65,3208,3209,-1,
+
+node idx: 85
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 66,3209,3210,-1,
+
+node idx: 88
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 67,3211,3212,878,
+
+node idx: 90
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 70,3212,3213,3214,71,
+
+node idx: 94
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 72,3215,3216,-1,
+
+node idx: 96
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 73,3216,3217,-1,
+
+node idx: 99
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 74,3218,3219,878,
+
+node idx: 101
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 77,3219,3220,3221,78,
+
+node idx: 105
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 79,3222,3223,-1,
+
+node idx: 107
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 80,3223,3224,-1,
+
+node idx: 110
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 81,3225,3226,878,
+
+node idx: 112
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 84,3226,3227,3228,85,
+
+node idx: 116
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 86,3229,3230,-1,
+
+node idx: 118
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 87,3230,3231,-1,
+
+node idx: 121
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 88,3232,3233,878,
+
+node idx: 123
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 91,3233,3234,3235,92,
+
+node idx: 127
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 93,3236,3237,-1,
+
+node idx: 129
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 94,3237,3238,-1,
+
+node idx: 132
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 95,3239,3240,878,
+
+node idx: 134
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 98,3240,3241,3242,99,
+
+node idx: 138
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 100,3243,3244,-1,
+
+node idx: 140
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 101,3244,3245,-1,
+
+node idx: 143
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 102,3246,3247,878,
+
+node idx: 145
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 105,3247,3248,3249,106,
+
+node idx: 149
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 107,3250,3251,-1,
+
+node idx: 151
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 108,3251,3252,-1,
+
+node idx: 154
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 109,3253,3254,878,
+
+node idx: 156
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 112,3254,3255,3256,113,
+
+node idx: 160
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 114,3257,3258,-1,
+
+node idx: 162
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 115,3258,3259,-1,
+
+node idx: 165
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 116,3260,3261,878,
+
+node idx: 167
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 119,3261,3262,3263,120,
+
+node idx: 171
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 121,3264,3265,-1,
+
+node idx: 173
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 122,3265,3266,-1,
+
+node idx: 176
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 123,3267,3268,878,
+
+node idx: 178
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 126,3268,3269,3270,127,
+
+node idx: 182
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 128,3271,3272,-1,
+
+node idx: 184
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 129,3272,3273,-1,
+
+node idx: 187
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 130,3274,3275,878,
+
+node idx: 189
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 133,3275,3276,3277,134,
+
+node idx: 193
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 135,3278,3279,-1,
+
+node idx: 195
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 136,3279,3280,-1,
+
+node idx: 198
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 137,3281,3282,878,
+
+node idx: 200
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 140,3282,3283,3284,141,
+
+node idx: 204
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 142,3285,3286,-1,
+
+node idx: 206
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 143,3286,3287,-1,
+
+node idx: 209
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 144,3288,3289,878,
+
+node idx: 211
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 147,3289,3290,3291,148,
+
+node idx: 215
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 149,3292,3293,-1,
+
+node idx: 217
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 150,3293,3294,-1,
+
+node idx: 220
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 151,3295,3296,878,
+
+node idx: 222
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 154,3296,3297,3298,155,
+
+node idx: 226
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 156,3299,3300,-1,
+
+node idx: 228
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 157,3300,3301,-1,
+
+node idx: 231
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 158,3302,3303,878,
+
+node idx: 233
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 161,3303,3304,3305,162,
+
+node idx: 237
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 163,3306,3307,-1,
+
+node idx: 239
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 164,3307,3308,-1,
+
+node idx: 242
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 165,3309,3310,878,
+
+node idx: 244
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 168,3310,3311,3312,169,
+
+node idx: 248
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 170,3313,3314,-1,
+
+node idx: 250
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 171,3314,3315,-1,
+
+node idx: 253
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 172,3316,3317,878,
+
+node idx: 255
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 175,3317,3318,3319,176,
+
+node idx: 259
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 177,3320,3321,-1,
+
+node idx: 261
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 178,3321,3322,-1,
+
+node idx: 264
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 179,3323,3324,878,
+
+node idx: 266
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 182,3324,3325,3326,183,
+
+node idx: 270
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 184,3327,3328,-1,
+
+node idx: 272
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 185,3328,3329,-1,
+
+node idx: 275
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 186,3330,3331,878,
+
+node idx: 277
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 189,3331,3332,3333,190,
+
+node idx: 281
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 191,3334,3335,-1,
+
+node idx: 283
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 192,3335,3336,-1,
+
+node idx: 286
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 193,3337,3338,878,
+
+node idx: 288
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 196,3338,3339,3340,197,
+
+node idx: 292
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 198,3341,3342,-1,
+
+node idx: 294
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 199,3342,3343,-1,
+
+node idx: 297
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 200,3344,3345,878,
+
+node idx: 299
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 203,3345,3346,3347,204,
+
+node idx: 303
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 205,3348,3349,-1,
+
+node idx: 305
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 206,3349,3350,-1,
+
+node idx: 308
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 207,3351,3352,878,
+
+node idx: 310
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 210,3352,3353,3354,211,
+
+node idx: 314
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 212,3355,3356,-1,
+
+node idx: 316
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 213,3356,3357,-1,
+
+node idx: 319
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 214,3358,3359,878,
+
+node idx: 321
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 217,3359,3360,3361,218,
+
+node idx: 325
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 219,3362,3363,-1,
+
+node idx: 327
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 220,3363,3364,-1,
+
+node idx: 330
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 221,3365,3366,878,
+
+node idx: 332
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 224,3366,3367,3368,225,
+
+node idx: 336
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 226,3369,3370,-1,
+
+node idx: 338
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 227,3370,3371,-1,
+
+node idx: 341
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 228,3372,3373,878,
+
+node idx: 343
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_relu_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 231,3373,3374,3375,232,
+
+node idx: 347
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x64_ldg8_f2f_stages_64x4_tn
+addr_corresponding_malloc_idx: 233,3376,3377,-1,
+
+node idx: 349
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_128x256_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 234,3377,3378,-1,
+
+node idx: 352
+kernel_func.name mangled = ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_64x3_tn
+addr_corresponding_malloc_idx: 235,3379,3380,878,
+
+node idx: 1
+kernel_func.name mangled = _ZN4vllm15rms_norm_kernelIN3c108BFloat16EEEvPT_PKS3_S6_fii
+addr_corresponding_malloc_idx: 3156,3155,19,
+
+node idx: 3
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3157,3157,16,
+
+node idx: 4
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3157,3157,240,241,642,
+
+node idx: 5
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3159,3157,240,241,644,643,-1,
+
+node idx: 7
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3160,3155,20,
+
+node idx: 9
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3162,3161,
+
+node idx: 12
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3163,3155,26,
+
+node idx: 14
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3164,3164,16,
+
+node idx: 15
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3164,3164,242,243,642,
+
+node idx: 16
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3166,3164,242,243,644,643,-1,
+
+node idx: 18
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3167,3155,27,
+
+node idx: 20
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3169,3168,
+
+node idx: 23
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3170,3155,33,
+
+node idx: 25
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3171,3171,16,
+
+node idx: 26
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3171,3171,244,245,642,
+
+node idx: 27
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3173,3171,244,245,644,643,-1,
+
+node idx: 29
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3174,3155,34,
+
+node idx: 31
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3176,3175,
+
+node idx: 34
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3177,3155,40,
+
+node idx: 36
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3178,3178,16,
+
+node idx: 37
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3178,3178,246,247,642,
+
+node idx: 38
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3180,3178,246,247,644,643,-1,
+
+node idx: 40
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3181,3155,41,
+
+node idx: 42
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3183,3182,
+
+node idx: 45
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3184,3155,47,
+
+node idx: 47
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3185,3185,16,
+
+node idx: 48
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3185,3185,248,249,642,
+
+node idx: 49
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3187,3185,248,249,644,643,-1,
+
+node idx: 51
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3188,3155,48,
+
+node idx: 53
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3190,3189,
+
+node idx: 56
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3191,3155,54,
+
+node idx: 58
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3192,3192,16,
+
+node idx: 59
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3192,3192,250,251,642,
+
+node idx: 60
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3194,3192,250,251,644,643,-1,
+
+node idx: 62
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3195,3155,55,
+
+node idx: 64
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3197,3196,
+
+node idx: 67
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3198,3155,61,
+
+node idx: 69
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3199,3199,16,
+
+node idx: 70
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3199,3199,252,253,642,
+
+node idx: 71
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3201,3199,252,253,644,643,-1,
+
+node idx: 73
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3202,3155,62,
+
+node idx: 75
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3204,3203,
+
+node idx: 78
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3205,3155,68,
+
+node idx: 80
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3206,3206,16,
+
+node idx: 81
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3206,3206,254,255,642,
+
+node idx: 82
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3208,3206,254,255,644,643,-1,
+
+node idx: 84
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3209,3155,69,
+
+node idx: 86
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3211,3210,
+
+node idx: 89
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3212,3155,75,
+
+node idx: 91
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3213,3213,16,
+
+node idx: 92
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3213,3213,256,257,642,
+
+node idx: 93
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3215,3213,256,257,644,643,-1,
+
+node idx: 95
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3216,3155,76,
+
+node idx: 97
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3218,3217,
+
+node idx: 100
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3219,3155,82,
+
+node idx: 102
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3220,3220,16,
+
+node idx: 103
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3220,3220,258,259,642,
+
+node idx: 104
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3222,3220,258,259,644,643,-1,
+
+node idx: 106
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3223,3155,83,
+
+node idx: 108
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3225,3224,
+
+node idx: 111
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3226,3155,89,
+
+node idx: 113
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3227,3227,16,
+
+node idx: 114
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3227,3227,260,261,642,
+
+node idx: 115
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3229,3227,260,261,644,643,-1,
+
+node idx: 117
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3230,3155,90,
+
+node idx: 119
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3232,3231,
+
+node idx: 122
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3233,3155,96,
+
+node idx: 124
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3234,3234,16,
+
+node idx: 125
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3234,3234,262,263,642,
+
+node idx: 126
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3236,3234,262,263,644,643,-1,
+
+node idx: 128
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3237,3155,97,
+
+node idx: 130
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3239,3238,
+
+node idx: 133
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3240,3155,103,
+
+node idx: 135
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3241,3241,16,
+
+node idx: 136
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3241,3241,264,265,642,
+
+node idx: 137
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3243,3241,264,265,644,643,-1,
+
+node idx: 139
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3244,3155,104,
+
+node idx: 141
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3246,3245,
+
+node idx: 144
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3247,3155,110,
+
+node idx: 146
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3248,3248,16,
+
+node idx: 147
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3248,3248,266,267,642,
+
+node idx: 148
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3250,3248,266,267,644,643,-1,
+
+node idx: 150
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3251,3155,111,
+
+node idx: 152
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3253,3252,
+
+node idx: 155
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3254,3155,117,
+
+node idx: 157
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3255,3255,16,
+
+node idx: 158
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3255,3255,268,269,642,
+
+node idx: 159
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3257,3255,268,269,644,643,-1,
+
+node idx: 161
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3258,3155,118,
+
+node idx: 163
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3260,3259,
+
+node idx: 166
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3261,3155,124,
+
+node idx: 168
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3262,3262,16,
+
+node idx: 169
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3262,3262,270,271,642,
+
+node idx: 170
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3264,3262,270,271,644,643,-1,
+
+node idx: 172
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3265,3155,125,
+
+node idx: 174
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3267,3266,
+
+node idx: 177
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3268,3155,131,
+
+node idx: 179
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3269,3269,16,
+
+node idx: 180
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3269,3269,272,273,642,
+
+node idx: 181
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3271,3269,272,273,644,643,-1,
+
+node idx: 183
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3272,3155,132,
+
+node idx: 185
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3274,3273,
+
+node idx: 188
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3275,3155,138,
+
+node idx: 190
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3276,3276,16,
+
+node idx: 191
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3276,3276,274,275,642,
+
+node idx: 192
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3278,3276,274,275,644,643,-1,
+
+node idx: 194
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3279,3155,139,
+
+node idx: 196
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3281,3280,
+
+node idx: 199
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3282,3155,145,
+
+node idx: 201
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3283,3283,16,
+
+node idx: 202
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3283,3283,276,277,642,
+
+node idx: 203
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3285,3283,276,277,644,643,-1,
+
+node idx: 205
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3286,3155,146,
+
+node idx: 207
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3288,3287,
+
+node idx: 210
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3289,3155,152,
+
+node idx: 212
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3290,3290,16,
+
+node idx: 213
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3290,3290,278,279,642,
+
+node idx: 214
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3292,3290,278,279,644,643,-1,
+
+node idx: 216
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3293,3155,153,
+
+node idx: 218
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3295,3294,
+
+node idx: 221
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3296,3155,159,
+
+node idx: 223
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3297,3297,16,
+
+node idx: 224
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3297,3297,280,281,642,
+
+node idx: 225
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3299,3297,280,281,644,643,-1,
+
+node idx: 227
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3300,3155,160,
+
+node idx: 229
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3302,3301,
+
+node idx: 232
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3303,3155,166,
+
+node idx: 234
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3304,3304,16,
+
+node idx: 235
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3304,3304,282,283,642,
+
+node idx: 236
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3306,3304,282,283,644,643,-1,
+
+node idx: 238
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3307,3155,167,
+
+node idx: 240
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3309,3308,
+
+node idx: 243
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3310,3155,173,
+
+node idx: 245
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3311,3311,16,
+
+node idx: 246
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3311,3311,284,285,642,
+
+node idx: 247
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3313,3311,284,285,644,643,-1,
+
+node idx: 249
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3314,3155,174,
+
+node idx: 251
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3316,3315,
+
+node idx: 254
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3317,3155,180,
+
+node idx: 256
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3318,3318,16,
+
+node idx: 257
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3318,3318,286,287,642,
+
+node idx: 258
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3320,3318,286,287,644,643,-1,
+
+node idx: 260
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3321,3155,181,
+
+node idx: 262
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3323,3322,
+
+node idx: 265
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3324,3155,187,
+
+node idx: 267
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3325,3325,16,
+
+node idx: 268
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3325,3325,288,289,642,
+
+node idx: 269
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3327,3325,288,289,644,643,-1,
+
+node idx: 271
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3328,3155,188,
+
+node idx: 273
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3330,3329,
+
+node idx: 276
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3331,3155,194,
+
+node idx: 278
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3332,3332,16,
+
+node idx: 279
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3332,3332,290,291,642,
+
+node idx: 280
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3334,3332,290,291,644,643,-1,
+
+node idx: 282
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3335,3155,195,
+
+node idx: 284
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3337,3336,
+
+node idx: 287
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3338,3155,201,
+
+node idx: 289
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3339,3339,16,
+
+node idx: 290
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3339,3339,292,293,642,
+
+node idx: 291
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3341,3339,292,293,644,643,-1,
+
+node idx: 293
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3342,3155,202,
+
+node idx: 295
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3344,3343,
+
+node idx: 298
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3345,3155,208,
+
+node idx: 300
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3346,3346,16,
+
+node idx: 301
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3346,3346,294,295,642,
+
+node idx: 302
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3348,3346,294,295,644,643,-1,
+
+node idx: 304
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3349,3155,209,
+
+node idx: 306
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3351,3350,
+
+node idx: 309
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3352,3155,215,
+
+node idx: 311
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3353,3353,16,
+
+node idx: 312
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3353,3353,296,297,642,
+
+node idx: 313
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3355,3353,296,297,644,643,-1,
+
+node idx: 315
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3356,3155,216,
+
+node idx: 317
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3358,3357,
+
+node idx: 320
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3359,3155,222,
+
+node idx: 322
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3360,3360,16,
+
+node idx: 323
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3360,3360,298,299,642,
+
+node idx: 324
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3362,3360,298,299,644,643,-1,
+
+node idx: 326
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3363,3155,223,
+
+node idx: 328
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3365,3364,
+
+node idx: 331
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3366,3155,229,
+
+node idx: 333
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3367,3367,16,
+
+node idx: 334
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3367,3367,300,301,642,
+
+node idx: 335
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3369,3367,300,301,644,643,-1,
+
+node idx: 337
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3370,3155,230,
+
+node idx: 339
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3372,3371,
+
+node idx: 342
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3373,3155,236,
+
+node idx: 344
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c108BFloat16ELb1EEEvPKlPT_S6_PKS5_illiii
+addr_corresponding_malloc_idx: 641,3374,3374,16,
+
+node idx: 345
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelI13__nv_bfloat16S1_Lb0EEEvPKT_S4_PT0_S6_PKliiiiii
+addr_corresponding_malloc_idx: 3374,3374,302,303,642,
+
+node idx: 346
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelI13__nv_bfloat16S1_Li128ELi16ELi128ELb0EEEvPT_PKS2_PKT0_S8_ifPKiSA_iPKfiii
+addr_corresponding_malloc_idx: 3376,3374,302,303,644,643,-1,
+
+node idx: 348
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3377,3155,237,
+
+node idx: 350
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c108BFloat16EEEvPT_PKS3_i
+addr_corresponding_malloc_idx: 3379,3378,
+
+node idx: 353
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c108BFloat16EEEvPT_S4_PKS3_fii
+addr_corresponding_malloc_idx: 3380,3155,238,
+
+node idx: 10
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 21
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 32
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 43
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 54
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 65
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 76
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 87
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 98
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 109
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 120
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 131
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 142
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 153
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 164
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 175
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 186
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 197
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 208
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 219
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 230
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 241
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 252
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 263
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 274
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 285
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 296
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 307
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 318
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 329
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 340
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+
+node idx: 351
+kernel_func.name mangled = memset
+addr_corresponding_malloc_idx: 878,
+

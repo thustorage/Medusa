@@ -1,0 +1,1897 @@
+============== begin_nodes ==============
+============================
+node idx: 0, node type: 0
+kernel_func.name mangled = _ZN2at6native44_GLOBAL__N__2f74bc60_11_Indexing_cu_89862edb21indexSelectLargeIndexIN3c104HalfEljLi2ELi2ELin2ELb1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESA_NS7_IT0_S9_EEiiS9_S9_l
+kernel_params.blockDimX = 128
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0xf310cd0
+kernel_params.gridDimX = 864
+kernel_params.gridDimY = 1
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0xdbc0da0
+kernel_params.kernelParams = 0xd9097a0
+kernel_params.sharedMemBytes = 0
+paramIndex = 0, paramOffset = 0, paramSize = 216
+00 40 26 85 5e 76 00 00 01 00 00 00 00 14 00 00 
+e0 49 4a 07 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 d0 00 00 00 00 00 00 00 
+07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+40 46 b0 01 0d 00 00 00 c0 00 00 00 00 00 00 00 
+00 45 b0 01 00 00 00 00 e9 34 69 f0 f9 50 aa e1 
+40 46 b0 01 00 00 00 00 a0 5d eb 77 00 14 00 00 
+01 00 00 00 00 00 00 00 79 31 e8 92 66 76 00 00 
+80 45 b0 01 00 00 00 00 87 9a e2 92 66 76 00 00 
+a0 5d eb 77 ff 7f 00 00 00 00 00 00 00 00 00 00 
+80 69 eb 77 ff 7f 00 00 05 01 00 00 00 00 00 00 
+01 00 00 00 00 00 00 00 10 66 eb 77 ff 7f 00 00 
+00 00 00 00 00 00 00 00 f0 0c fa 66 66 76 00 00 
+02 00 00 00 ff 7f 00 00 
+
+paramIndex = 1, paramOffset = 216, paramSize = 216
+00 00 00 8c 64 76 00 00 01 00 00 00 00 14 00 00 
+c0 5e eb 77 ff 7f 00 00 ed 2e e1 92 66 76 00 00 
+00 00 00 00 00 00 00 00 c8 45 b0 01 00 00 00 00 
+01 00 00 00 00 00 00 00 e0 77 61 07 00 00 00 00 
+d4 5f eb 77 ff 7f 00 00 80 45 b0 01 00 00 00 00 
+d4 5f eb 77 ff 7f 00 00 05 01 00 00 00 00 00 00 
+c0 5f eb 77 ff 7f 00 00 88 f2 e4 92 00 14 00 00 
+01 00 00 00 00 00 00 00 70 63 5e 86 66 76 00 00 
+00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02 00 00 00 00 00 00 00 
+
+paramIndex = 2, paramOffset = 432, paramSize = 216
+00 f8 ff 77 64 76 00 00 c0 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 00 00 00 00 00 00 00 
+
+paramIndex = 3, paramOffset = 648, paramSize = 4
+00 00 00 00 
+
+paramIndex = 4, paramOffset = 652, paramSize = 4
+00 00 00 00 
+
+paramIndex = 5, paramOffset = 656, paramSize = 4
+00 00 0f 00 
+
+paramIndex = 6, paramOffset = 660, paramSize = 4
+00 14 00 00 
+
+paramIndex = 7, paramOffset = 664, paramSize = 8
+00 7d 00 00 00 00 00 00 
+
+============================
+node idx: 1, node type: 0
+kernel_func.name mangled = _ZN4vllm15rms_norm_kernelIN3c104HalfEEEvPT_PKS3_S6_fii
+kernel_params.blockDimX = 1024
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x120a2410
+kernel_params.gridDimX = 192
+kernel_params.gridDimY = 1
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x120763b0
+kernel_params.kernelParams = 0x74f1f30
+kernel_params.sharedMemBytes = 0
+paramIndex = 0, paramOffset = 0, paramSize = 8
+00 80 75 51 5a 76 00 00 
+
+paramIndex = 1, paramOffset = 8, paramSize = 8
+00 40 26 85 5e 76 00 00 
+
+paramIndex = 2, paramOffset = 16, paramSize = 8
+00 00 f8 77 64 76 00 00 
+
+paramIndex = 3, paramOffset = 24, paramSize = 4
+bd 37 86 35 
+
+paramIndex = 4, paramOffset = 28, paramSize = 4
+c0 00 00 00 
+
+paramIndex = 5, paramOffset = 32, paramSize = 4
+00 14 00 00 
+
+============================
+node idx: 2, node type: 2
+memset_params.dst = 0x765e84800000
+memset_params.elementSize = 1
+memset_params.height = 1
+memset_params.pitch = 0
+memset_params.value = 0
+memset_params.width = 480
+============================
+node idx: 3, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+kernel_params.blockDimX = 256
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x158afb40
+kernel_params.gridDimX = 60
+kernel_params.gridDimY = 2
+kernel_params.gridDimZ = 5
+kernel_params.kernel = 0x156fb940
+kernel_params.kernelParams = 0x721cbd0
+kernel_params.sharedMemBytes = 98304
+paramIndex = 0, paramOffset = 0, paramSize = 192
+00 00 00 80 64 76 00 00 00 80 75 51 5a 76 00 00 
+00 00 80 52 5e 76 00 00 00 00 05 00 00 00 00 00 
+00 00 05 00 00 00 00 00 80 00 dd ff ff ff ff ff 
+80 00 f1 ff ff ff ff ff 00 04 00 00 00 00 00 00 
+00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 14 00 00 00 14 00 00 
+00 3c 00 00 00 3c 00 00 00 3c 00 00 c0 00 00 00 
+00 14 00 00 00 00 00 00 00 00 80 84 5e 76 00 00 
+00 04 00 00 0c 11 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 80 52 5e 76 00 00 
+00 00 00 10 00 00 00 10 00 00 00 00 00 00 00 00 
+
+============================
+node idx: 4, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+kernel_params.blockDimX = 512
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x16a80650
+kernel_params.gridDimX = 192
+kernel_params.gridDimY = 1
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x16a59990
+kernel_params.kernelParams = 0xd9435a0
+kernel_params.sharedMemBytes = 0
+paramIndex = 0, paramOffset = 0, paramSize = 8
+00 b0 e4 77 64 76 00 00 
+
+paramIndex = 1, paramOffset = 8, paramSize = 8
+00 00 80 52 5e 76 00 00 
+
+paramIndex = 2, paramOffset = 16, paramSize = 8
+00 28 80 52 5e 76 00 00 
+
+paramIndex = 3, paramOffset = 24, paramSize = 8
+00 00 f0 77 64 76 00 00 
+
+paramIndex = 4, paramOffset = 32, paramSize = 4
+80 00 00 00 
+
+paramIndex = 5, paramOffset = 40, paramSize = 8
+00 3c 00 00 00 00 00 00 
+
+paramIndex = 6, paramOffset = 48, paramSize = 8
+00 3c 00 00 00 00 00 00 
+
+paramIndex = 7, paramOffset = 56, paramSize = 4
+28 00 00 00 
+
+paramIndex = 8, paramOffset = 60, paramSize = 4
+28 00 00 00 
+
+paramIndex = 9, paramOffset = 64, paramSize = 4
+80 00 00 00 
+
+============================
+node idx: 5, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+kernel_params.blockDimX = 512
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x16b7ef50
+kernel_params.gridDimX = 192
+kernel_params.gridDimY = 1
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x16aec030
+kernel_params.kernelParams = 0xd912390
+kernel_params.sharedMemBytes = 0
+paramIndex = 0, paramOffset = 0, paramSize = 8
+00 28 80 52 5e 76 00 00 
+
+paramIndex = 1, paramOffset = 8, paramSize = 8
+00 50 80 52 5e 76 00 00 
+
+paramIndex = 2, paramOffset = 16, paramSize = 8
+00 00 00 9c 5c 76 00 00 
+
+paramIndex = 3, paramOffset = 24, paramSize = 8
+00 00 00 94 5c 76 00 00 
+
+paramIndex = 4, paramOffset = 32, paramSize = 8
+00 b8 e4 77 64 76 00 00 
+
+paramIndex = 5, paramOffset = 40, paramSize = 4
+00 3c 00 00 
+
+paramIndex = 6, paramOffset = 44, paramSize = 4
+00 3c 00 00 
+
+paramIndex = 7, paramOffset = 48, paramSize = 4
+28 00 00 00 
+
+paramIndex = 8, paramOffset = 52, paramSize = 4
+80 00 00 00 
+
+paramIndex = 9, paramOffset = 56, paramSize = 4
+10 00 00 00 
+
+paramIndex = 10, paramOffset = 60, paramSize = 4
+08 00 00 00 
+
+============================
+node idx: 6, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+kernel_params.blockDimX = 128
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x1761f780
+kernel_params.gridDimX = 40
+kernel_params.gridDimY = 192
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x16e95db0
+kernel_params.kernelParams = 0x191e20c0
+kernel_params.sharedMemBytes = 8192
+paramIndex = 0, paramOffset = 0, paramSize = 8
+00 c0 64 85 5e 76 00 00 
+
+paramIndex = 1, paramOffset = 8, paramSize = 8
+00 00 80 52 5e 76 00 00 
+
+paramIndex = 2, paramOffset = 16, paramSize = 8
+00 00 00 9c 5c 76 00 00 
+
+paramIndex = 3, paramOffset = 24, paramSize = 8
+00 00 00 94 5c 76 00 00 
+
+paramIndex = 4, paramOffset = 32, paramSize = 4
+28 00 00 00 
+
+paramIndex = 5, paramOffset = 36, paramSize = 4
+f3 04 b5 3d 
+
+paramIndex = 6, paramOffset = 40, paramSize = 8
+00 c4 e4 77 64 76 00 00 
+
+paramIndex = 7, paramOffset = 48, paramSize = 8
+00 c0 e4 77 64 76 00 00 
+
+paramIndex = 8, paramOffset = 56, paramSize = 4
+80 00 00 00 
+
+paramIndex = 9, paramOffset = 64, paramSize = 8
+00 00 00 00 00 00 00 00 
+
+paramIndex = 10, paramOffset = 72, paramSize = 4
+00 3c 00 00 
+
+paramIndex = 11, paramOffset = 76, paramSize = 4
+00 40 01 00 
+
+paramIndex = 12, paramOffset = 80, paramSize = 4
+00 08 00 00 
+
+============================
+node idx: 7, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+kernel_params.blockDimX = 128
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x18661070
+kernel_params.gridDimX = 2
+kernel_params.gridDimY = 40
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x18530210
+kernel_params.kernelParams = 0x19d71dc0
+kernel_params.sharedMemBytes = 57344
+paramIndex = 0, paramOffset = 0, paramSize = 432
+00 c0 64 85 5e 76 00 00 00 00 00 7a 64 76 00 00 
+00 00 da 52 5e 76 00 00 00 00 00 00 00 00 00 00 
+50 4f eb 77 ff 7f 00 00 54 4f eb 77 ff 7f 00 00 
+00 00 da 52 5e 76 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 c0 00 00 00 00 14 00 00 
+00 14 00 00 00 14 00 00 00 14 00 00 00 14 00 00 
+00 14 00 00 00 14 00 00 01 00 00 00 00 00 00 00 
+01 00 00 00 00 14 00 00 00 00 00 00 00 14 00 00 
+01 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 
+01 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 f0 3f 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 c0 7f 00 00 c0 7f 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 
+40 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 
+9f 00 00 00 04 00 00 00 e0 13 00 00 01 00 00 00 
+00 00 00 00 00 00 00 00 02 00 00 00 28 00 00 00 
+01 00 00 00 02 00 00 00 28 00 00 00 00 00 00 00 
+
+============================
+node idx: 8, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+kernel_params.blockDimX = 1024
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x12088c70
+kernel_params.gridDimX = 192
+kernel_params.gridDimY = 1
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x1206c120
+kernel_params.kernelParams = 0x75d1d70
+kernel_params.sharedMemBytes = 0
+paramIndex = 0, paramOffset = 0, paramSize = 8
+00 00 da 52 5e 76 00 00 
+
+paramIndex = 1, paramOffset = 8, paramSize = 8
+00 40 26 85 5e 76 00 00 
+
+paramIndex = 2, paramOffset = 16, paramSize = 8
+00 28 f8 77 64 76 00 00 
+
+paramIndex = 3, paramOffset = 24, paramSize = 4
+bd 37 86 35 
+
+paramIndex = 4, paramOffset = 28, paramSize = 4
+c0 00 00 00 
+
+paramIndex = 5, paramOffset = 32, paramSize = 4
+00 14 00 00 
+
+============================
+node idx: 9, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+kernel_params.blockDimX = 256
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x158afb40
+kernel_params.gridDimX = 108
+kernel_params.gridDimY = 2
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x156fb940
+kernel_params.kernelParams = 0x710ea20
+kernel_params.sharedMemBytes = 98304
+paramIndex = 0, paramOffset = 0, paramSize = 192
+00 00 00 f2 64 76 00 00 00 00 da 52 5e 76 00 00 
+00 00 f8 52 5e 76 00 00 00 00 05 00 00 00 00 00 
+00 00 05 00 00 00 00 00 80 00 dd ff ff ff ff ff 
+80 00 f1 ff ff ff ff ff 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 14 00 00 00 14 00 00 
+00 6c 00 00 00 6c 00 00 00 6c 00 00 c0 00 00 00 
+00 14 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 14 00 00 00 11 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 f8 52 5e 76 00 00 
+00 00 00 10 00 00 00 10 00 00 00 00 00 00 00 00 
+
+============================
+node idx: 10, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+kernel_params.blockDimX = 1024
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x1778e420
+kernel_params.gridDimX = 192
+kernel_params.gridDimY = 1
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x17749f20
+kernel_params.kernelParams = 0x190a2310
+kernel_params.sharedMemBytes = 0
+paramIndex = 0, paramOffset = 0, paramSize = 8
+00 00 80 52 5e 76 00 00 
+
+paramIndex = 1, paramOffset = 8, paramSize = 8
+00 00 f8 52 5e 76 00 00 
+
+paramIndex = 2, paramOffset = 16, paramSize = 4
+00 36 00 00 
+
+============================
+node idx: 11, node type: 2
+memset_params.dst = 0x765e84800000
+memset_params.elementSize = 1
+memset_params.height = 1
+memset_params.pitch = 0
+memset_params.value = 0
+memset_params.width = 160
+============================
+node idx: 12, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+kernel_params.blockDimX = 256
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x15375260
+kernel_params.gridDimX = 40
+kernel_params.gridDimY = 1
+kernel_params.gridDimZ = 8
+kernel_params.kernel = 0x15148e70
+kernel_params.kernelParams = 0x7195e90
+kernel_params.sharedMemBytes = 98304
+paramIndex = 0, paramOffset = 0, paramSize = 192
+00 00 00 52 64 76 00 00 00 00 80 52 5e 76 00 00 
+00 80 75 51 5a 76 00 00 00 80 0d 00 00 00 00 00 
+00 80 0d 00 00 00 00 00 80 80 d7 ff ff ff ff ff 
+80 80 a1 ff ff ff ff ff c0 06 00 00 00 00 00 00 
+c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 36 00 00 00 36 00 00 
+00 14 00 00 00 14 00 00 00 14 00 00 c0 00 00 00 
+00 36 00 00 00 00 00 00 00 00 80 84 5e 76 00 00 
+c0 06 00 00 0c 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 
+00 00 00 00 00 00 00 00 00 80 75 51 5a 76 00 00 
+00 00 00 10 00 00 00 10 00 00 00 00 00 00 00 00 
+
+============================
+node idx: 13, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+kernel_params.blockDimX = 1024
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x12088c70
+kernel_params.gridDimX = 192
+kernel_params.gridDimY = 1
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x1206c120
+kernel_params.kernelParams = 0xd913c80
+kernel_params.sharedMemBytes = 0
+paramIndex = 0, paramOffset = 0, paramSize = 8
+00 80 75 51 5a 76 00 00 
+
+paramIndex = 1, paramOffset = 8, paramSize = 8
+00 40 26 85 5e 76 00 00 
+
+paramIndex = 2, paramOffset = 16, paramSize = 8
+00 50 f8 77 64 76 00 00 
+
+paramIndex = 3, paramOffset = 24, paramSize = 4
+bd 37 86 35 
+
+paramIndex = 4, paramOffset = 28, paramSize = 4
+c0 00 00 00 
+
+paramIndex = 5, paramOffset = 32, paramSize = 4
+00 14 00 00 
+
+============================
+node idx: 14, node type: 2
+memset_params.dst = 0x765e84800000
+memset_params.elementSize = 1
+memset_params.height = 1
+memset_params.pitch = 0
+memset_params.value = 0
+memset_params.width = 480
+============================
+node idx: 15, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+kernel_params.blockDimX = 256
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x158afb40
+kernel_params.gridDimX = 60
+kernel_params.gridDimY = 2
+kernel_params.gridDimZ = 5
+kernel_params.kernel = 0x156fb940
+kernel_params.kernelParams = 0x7164220
+kernel_params.sharedMemBytes = 98304
+paramIndex = 0, paramOffset = 0, paramSize = 192
+00 00 00 46 64 76 00 00 00 80 75 51 5a 76 00 00 
+00 00 80 52 5e 76 00 00 00 00 05 00 00 00 00 00 
+00 00 05 00 00 00 00 00 80 00 dd ff ff ff ff ff 
+80 00 f1 ff ff ff ff ff 00 04 00 00 00 00 00 00 
+00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 14 00 00 00 14 00 00 
+00 3c 00 00 00 3c 00 00 00 3c 00 00 c0 00 00 00 
+00 14 00 00 00 00 00 00 00 00 80 84 5e 76 00 00 
+00 04 00 00 0c 11 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 80 52 5e 76 00 00 
+00 00 00 10 00 00 00 10 00 00 00 00 00 00 00 00 
+
+============================
+node idx: 16, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+kernel_params.blockDimX = 512
+kernel_params.blockDimY = 1
+kernel_params.blockDimZ = 1
+kernel_params.ctx = 0x75f5ae0
+kernel_params.extra = (nil)
+kernel_params.func = 0x16a80650
+kernel_params.gridDimX = 192
+kernel_params.gridDimY = 1
+kernel_params.gridDimZ = 1
+kernel_params.kernel = 0x16a59990
+kernel_params.kernelParams = 0x1989cf50
+kernel_params.sharedMemBytes = 0
+paramIndex = 0, paramOffset = 0, paramSize = 8
+00 b0 e4 77 64 76 00 00 
+
+paramIndex = 1, paramOffset = 8, paramSize = 8
+00 00 80 52 5e 76 00 00 
+
+paramIndex = 2, paramOffset = 16, paramSize = 8
+00 28 80 52 5e 76 00 00 
+
+paramIndex = 3, paramOffset = 24, paramSize = 8
+00 00 f0 77 64 76 00 00 
+
+paramIndex = 4, paramOffset = 32, paramSize = 4
+80 00 00 00 
+
+paramIndex = 5, paramOffset = 40, paramSize = 8
+00 3c 00 00 00 00 00 00 
+
+paramIndex = 6, paramOffset = 48, paramSize = 8
+00 3c 00 00 00 00 00 00 
+
+paramIndex = 7, paramOffset = 56, paramSize = 4
+28 00 00 00 
+
+paramIndex = 8, paramOffset = 60, paramSize = 4
+28 00 00 00 
+
+paramIndex = 9, paramOffset = 64, paramSize = 4
+80 00 00 00 
+
+============================
+node idx: 17, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 18, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 19, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 20, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 21, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 22, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 23, node type: 2
+============================
+node idx: 24, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 25, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 26, node type: 2
+============================
+node idx: 27, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 28, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 29, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 30, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 31, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 32, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 33, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 34, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 35, node type: 2
+============================
+node idx: 36, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 37, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 38, node type: 2
+============================
+node idx: 39, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 40, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 41, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 42, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 43, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 44, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 45, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 46, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 47, node type: 2
+============================
+node idx: 48, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 49, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 50, node type: 2
+============================
+node idx: 51, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 52, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 53, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 54, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 55, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 56, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 57, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 58, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 59, node type: 2
+============================
+node idx: 60, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 61, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 62, node type: 2
+============================
+node idx: 63, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 64, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 65, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 66, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 67, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 68, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 69, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 70, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 71, node type: 2
+============================
+node idx: 72, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 73, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 74, node type: 2
+============================
+node idx: 75, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 76, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 77, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 78, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 79, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 80, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 81, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 82, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 83, node type: 2
+============================
+node idx: 84, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 85, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 86, node type: 2
+============================
+node idx: 87, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 88, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 89, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 90, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 91, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 92, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 93, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 94, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 95, node type: 2
+============================
+node idx: 96, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 97, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 98, node type: 2
+============================
+node idx: 99, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 100, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 101, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 102, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 103, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 104, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 105, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 106, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 107, node type: 2
+============================
+node idx: 108, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 109, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 110, node type: 2
+============================
+node idx: 111, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 112, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 113, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 114, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 115, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 116, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 117, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 118, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 119, node type: 2
+============================
+node idx: 120, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 121, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 122, node type: 2
+============================
+node idx: 123, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 124, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 125, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 126, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 127, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 128, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 129, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 130, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 131, node type: 2
+============================
+node idx: 132, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 133, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 134, node type: 2
+============================
+node idx: 135, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 136, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 137, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 138, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 139, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 140, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 141, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 142, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 143, node type: 2
+============================
+node idx: 144, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 145, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 146, node type: 2
+============================
+node idx: 147, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 148, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 149, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 150, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 151, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 152, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 153, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 154, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 155, node type: 2
+============================
+node idx: 156, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 157, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 158, node type: 2
+============================
+node idx: 159, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 160, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 161, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 162, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 163, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 164, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 165, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 166, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 167, node type: 2
+============================
+node idx: 168, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 169, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 170, node type: 2
+============================
+node idx: 171, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 172, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 173, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 174, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 175, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 176, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 177, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 178, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 179, node type: 2
+============================
+node idx: 180, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 181, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 182, node type: 2
+============================
+node idx: 183, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 184, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 185, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 186, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 187, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 188, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 189, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 190, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 191, node type: 2
+============================
+node idx: 192, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 193, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 194, node type: 2
+============================
+node idx: 195, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 196, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 197, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 198, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 199, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 200, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 201, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 202, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 203, node type: 2
+============================
+node idx: 204, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 205, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 206, node type: 2
+============================
+node idx: 207, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 208, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 209, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 210, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 211, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 212, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 213, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 214, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 215, node type: 2
+============================
+node idx: 216, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 217, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 218, node type: 2
+============================
+node idx: 219, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 220, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 221, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 222, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 223, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 224, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 225, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 226, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 227, node type: 2
+============================
+node idx: 228, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 229, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 230, node type: 2
+============================
+node idx: 231, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 232, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 233, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 234, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 235, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 236, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 237, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 238, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 239, node type: 2
+============================
+node idx: 240, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 241, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 242, node type: 2
+============================
+node idx: 243, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 244, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 245, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 246, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 247, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 248, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 249, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 250, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 251, node type: 2
+============================
+node idx: 252, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 253, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 254, node type: 2
+============================
+node idx: 255, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 256, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 257, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 258, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 259, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 260, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 261, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 262, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 263, node type: 2
+============================
+node idx: 264, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 265, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 266, node type: 2
+============================
+node idx: 267, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 268, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 269, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 270, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 271, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 272, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 273, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 274, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 275, node type: 2
+============================
+node idx: 276, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 277, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 278, node type: 2
+============================
+node idx: 279, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 280, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 281, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 282, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 283, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 284, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 285, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 286, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 287, node type: 2
+============================
+node idx: 288, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 289, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 290, node type: 2
+============================
+node idx: 291, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 292, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 293, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 294, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 295, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 296, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 297, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 298, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 299, node type: 2
+============================
+node idx: 300, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 301, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 302, node type: 2
+============================
+node idx: 303, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 304, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 305, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 306, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 307, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 308, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 309, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 310, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 311, node type: 2
+============================
+node idx: 312, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 313, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 314, node type: 2
+============================
+node idx: 315, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 316, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 317, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 318, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 319, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 320, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 321, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 322, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 323, node type: 2
+============================
+node idx: 324, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 325, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 326, node type: 2
+============================
+node idx: 327, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 328, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 329, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 330, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 331, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 332, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 333, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 334, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 335, node type: 2
+============================
+node idx: 336, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 337, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 338, node type: 2
+============================
+node idx: 339, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 340, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 341, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 342, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 343, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 344, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 345, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 346, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 347, node type: 2
+============================
+node idx: 348, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 349, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 350, node type: 2
+============================
+node idx: 351, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 352, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 353, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 354, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 355, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 356, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 357, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 358, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 359, node type: 2
+============================
+node idx: 360, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 361, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 362, node type: 2
+============================
+node idx: 363, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 364, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 365, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 366, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 367, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 368, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 369, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 370, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 371, node type: 2
+============================
+node idx: 372, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 373, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 374, node type: 2
+============================
+node idx: 375, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 376, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 377, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 378, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 379, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 380, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 381, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 382, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 383, node type: 2
+============================
+node idx: 384, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 385, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 386, node type: 2
+============================
+node idx: 387, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 388, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 389, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 390, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 391, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 392, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 393, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 394, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 395, node type: 2
+============================
+node idx: 396, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 397, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 398, node type: 2
+============================
+node idx: 399, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 400, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 401, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 402, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 403, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 404, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 405, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 406, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 407, node type: 2
+============================
+node idx: 408, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 409, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 410, node type: 2
+============================
+node idx: 411, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 412, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 413, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 414, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 415, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 416, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 417, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 418, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 419, node type: 2
+============================
+node idx: 420, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 421, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 422, node type: 2
+============================
+node idx: 423, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 424, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 425, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 426, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 427, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 428, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 429, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 430, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 431, node type: 2
+============================
+node idx: 432, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 433, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 434, node type: 2
+============================
+node idx: 435, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 436, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 437, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 438, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 439, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 440, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 441, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 442, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 443, node type: 2
+============================
+node idx: 444, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 445, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 446, node type: 2
+============================
+node idx: 447, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 448, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 449, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 450, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 451, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 452, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 453, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 454, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 455, node type: 2
+============================
+node idx: 456, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 457, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 458, node type: 2
+============================
+node idx: 459, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 460, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 461, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 462, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 463, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 464, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 465, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 466, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 467, node type: 2
+============================
+node idx: 468, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 469, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 470, node type: 2
+============================
+node idx: 471, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 472, node type: 0
+kernel_func.name mangled = _ZN4vllm23rotary_embedding_kernelIN3c104HalfELb1EEEvPKlPT_S6_PKS5_illiii
+============================
+node idx: 473, node type: 0
+kernel_func.name mangled = _ZN4vllm24reshape_and_cache_kernelIttLb0EEEvPKT_S3_PT0_S5_PKliiiiii
+============================
+node idx: 474, node type: 0
+kernel_func.name mangled = _ZN4vllm25paged_attention_v1_kernelIttLi128ELi16ELi128ELb0EEEvPT_PKS1_PKT0_S7_ifPKiS9_iPKfiii
+============================
+node idx: 475, node type: 0
+kernel_func.name mangled = sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_kernel
+============================
+node idx: 476, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================
+node idx: 477, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 478, node type: 0
+kernel_func.name mangled = _ZN4vllm19silu_and_mul_kernelIN3c104HalfEEEvPT_PKS3_i
+============================
+node idx: 479, node type: 2
+============================
+node idx: 480, node type: 0
+kernel_func.name mangled = ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+============================
+node idx: 481, node type: 0
+kernel_func.name mangled = _ZN4vllm25fused_add_rms_norm_kernelIN3c104HalfEEEvPT_S4_PKS3_fii
+============================

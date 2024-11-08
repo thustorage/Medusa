@@ -1,0 +1,7 @@
+mode                 Falcon-7B     Llama-13B      Llama-7B   Qwen-0.5B    Qwen-1.8B      Qwen-14B       Qwen-4B      Qwen-7B         Yi-6B         Yi-9B
+cuda_graph_nodes  14406.000000  16150.000000  12518.000000  9118.00000  9550.000000  16350.000000  16150.000000  12902.00000  12902.000000  19318.000000
+total_size(GB)       13.445677     24.244574     12.551887     1.16476     3.432081     26.399378      7.368878     14.39282     11.293869     16.450379
+CUDA nodes number:  139364
+Pointers number:  538507
+Max pointers in a line:  9
+Average pointers per CUDA nodes:  3.864032318245745

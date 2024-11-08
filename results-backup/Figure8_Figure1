@@ -1,0 +1,5 @@
+            init_tokenizer  load_weights  init_kv_cache  capture_model   warm-up  init_model  total_load_time  runtime_time
+Model                                                                                                                      
+Medusa            0.230915      0.429348       0.016313       0.276763  0.279544    0.829003         1.830971      0.640029
+vLLM              0.221908      0.382589       0.534172       0.888116  0.000000    0.858420         2.885205      0.638702
+vLLM+async        0.224741      0.417292       0.683732       0.889964  0.000000    0.864367         2.438063      0.729800
