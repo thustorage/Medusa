@@ -4,7 +4,7 @@ This repository contains the source code and scripts for reproducing the experim
 
 This is the main repository providing the LLM inference service, built on top of [vLLM](https://github.com/vllm-project/vllm), a popular framework for LLM inference. It also depends on several other components, including PyTorch and SPDK. We also release these components as described in the Getting Started guide.
 
-Most of our engineering efforts have focused on saving and recovering the CUDA Graph, which is crucial for improving the performance of LLM inference while also impacting cold-start latency. We have navigated significant challenges with closed-source CUDA APIs and GPU-accelerated libraries like cuBLAS. This part of codes can be found in our modified version of [PyTorch-Medusa]().
+Most of our engineering efforts have focused on saving and recovering the CUDA Graph, which is crucial for improving the performance of LLM inference while also impacting cold-start latency. We have navigated significant challenges with closed-source CUDA APIs and GPU-accelerated libraries like cuBLAS. This part of codes can be found in our modified version of [PyTorch-Medusa](git@github.com:ShaoxunZeng/PyTorch-Medusa.git).
 
 For more details, please refer to our paper: [ASPLOS'25] Medusa: Accelerating Serverless LLM Inference with Materialization.
 We will release our paper after it is cemera-ready.
