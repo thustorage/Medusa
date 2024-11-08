@@ -245,7 +245,7 @@ TORCH_CUDA_ARCH_LIST="8.0;8.6" MAX_JOBS=1 pip install -e .
 <summary>Compile vLLM</summary>
 
 ```jsx
-git clone git@github.com:ShaoxunZeng/vllm-serverless.git vllm
+git clone git@github.com:thustorage/Medusa.git vllm
 ```
 
 ```jsx
