@@ -11,7 +11,7 @@ We will release our paper after it is cemera-ready.
 
 ## System Requirements
 
-1. CUDA Version: 12.4, Driver Version: 550.54.14 (!Important! different versions could results in the different kernel implementation in cuBLAS.)
+1. CUDA Version: 12.4, Driver Version: 550.54.14 (!Important! Different versions could result in the different kernel implementation in cuBLAS.)
 2. Conda and python environments would be created by given dependencies, see below.
 3. 4 Optane P5800X SSDs to reproduce the results, and other disks with SPDK supporting could work.
 
