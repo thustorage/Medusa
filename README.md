@@ -295,6 +295,7 @@ nvidia-smi -pm=1
 ```
 
 ```jsx
+source /home/zsx/anaconda3/etc/profile.d/conda.sh ;  conda activate serverless
 export CUDA_HOME=/usr/local/cuda-12.4/
 export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64:/home/zsx/spdk/build/lib:$LD_LIBRARY_PATH
 export PATH=/usr/local/cuda-12.4/bin/:$PATH
