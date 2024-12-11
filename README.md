@@ -284,6 +284,10 @@ Detailed versions and commit ids are described in `examples/llm_engine_example.p
 <details>
 <summary>Run Experiments</summary>
 
+```jsx
+cd /home/zsx/vllm # currently, this path is hard-coded in the script as the location of Medusa
+```
+
 Notice, we will kill python process multiple times during runing experiments.
 GPU could be used by others, please run `pkill -9 python` and `pkill -9 python3` first.
 
