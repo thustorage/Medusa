@@ -1,11 +1,874 @@
+python scripts/serverless_llm.py --offline_performance
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Qwen-0.5B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Qwen-0.5B --async_load > ./data/Qwen-0.5B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Qwen-0.5B
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 144
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 144
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+
+
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Qwen-1.8B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Qwen-1.8B --async_load > ./data/Qwen-1.8B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Qwen-1.8B
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 120
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 144
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 144
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 144
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 144
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 72, ampere_nodes: 96
+re-fill ampere_to_malloc_idx
+
+
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Qwen-4B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Qwen-4B --async_load > ./data/Qwen-4B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Qwen-4B
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+
+
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Qwen-7B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Qwen-7B --async_load > ./data/Qwen-7B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Qwen-7B
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 128
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 96, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+
+
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Yi-6B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Yi-6B --async_load > ./data/Yi-6B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Yi-6B
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+
+
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Llama-7B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Llama-7B --async_load > ./data/Llama-7B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Llama-7B
+memset_to_malloc_idx: 0, memset_nodes: 64
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 64
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 64
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 64
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 64
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+
+
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Falcon-7B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Falcon-7B --async_load > ./data/Falcon-7B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Falcon-7B
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 64
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 64
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 32
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 192
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 224
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 224
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 128, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+
+
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Yi-9B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Yi-9B --async_load > ./data/Yi-9B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Yi-9B
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 288
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 288
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 288
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 288
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 288
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 288
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 48
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 288
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 288
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 192, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+
+
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Llama-13B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Llama-13B --async_load > ./data/Llama-13B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Llama-13B
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 160, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 160, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 160, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 160, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 160, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 160, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+
+
+LD_PRELOAD=./libmylib.so CUDA_VISIBLE_DEVICES=0 python examples/llm_engine_example.py --log ./breakdowns/Qwen-14B_offline.html --persist_cudagraph --batch_size 0 --fast_start --model_name Qwen-14B --async_load > ./data/Qwen-14B/log_graph_0 2>&1
+python log_filter.py --batch_size 0 --model Qwen-14B
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 120
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 120
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 80
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 240
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 200
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+memset_to_malloc_idx: 0, memset_nodes: 40
+re-fill memset_to_malloc_idx
+ampere_to_malloc_idx: 120, ampere_nodes: 160
+re-fill ampere_to_malloc_idx
+
+
+
+
        Model  total_time  analysis_stage  capture_stage
-9  Falcon-7B   40.073215       32.574625       7.498590
-6   Llama-7B   32.402010       25.071946       7.330064
-2  Llama-13B   40.854423       32.798782       8.055641
-3  Qwen-0.5B   25.706385       18.742779       6.963606
-1  Qwen-1.8B   26.735722       20.035105       6.700617
-7    Qwen-4B   44.877601       37.212655       7.664946
-4    Qwen-7B   34.451665       27.089028       7.362637
-8   Qwen-14B   45.570911       34.666874      10.904037
-0      Yi-6B   32.991856       25.861468       7.130388
-5      Yi-9B   50.884043       42.699011       8.185032
+9  Falcon-7B   39.991252       32.324618       7.666635
+6   Llama-7B   32.257085       24.775103       7.481982
+2  Llama-13B   40.993558       32.829158       8.164400
+3  Qwen-0.5B   25.654950       18.531921       7.123029
+1  Qwen-1.8B   27.233461       20.198697       7.034763
+7    Qwen-4B   44.946525       37.107196       7.839330
+4    Qwen-7B   34.540544       27.034465       7.506078
+8   Qwen-14B   44.117387       35.020083       9.097304
+0      Yi-6B   33.539946       26.154098       7.385849
+5      Yi-9B   51.836122       42.889209       8.946913

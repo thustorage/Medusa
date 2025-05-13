@@ -1,3 +1,150 @@
+Killed Python process with PID: 6623
+Killed Python process with PID: 6627
+Killed Python process with PID: 7282
+Killed Python process with PID: 7284
+Killed Python process with PID: 7498
+Killed Python process with PID: 10174
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 1 --run_time 120.0 > experiments/traces_throughput/qps1/Qwen-4B_sync 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12445
+Killed Python process with PID: 12446
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --async_load --qps 1 --run_time 120.0 > experiments/traces_throughput/qps1/Qwen-4B_async 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12447
+Killed Python process with PID: 12448
+Killed Python process with PID: 12450
+Killed Python process with PID: 12451
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --fast_start --async_load --persist_cudagraph --load_graph --qps 1 --run_time 120.0 > experiments/traces_throughput/qps1/Qwen-4B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12453
+Killed Python process with PID: 12454
+Killed Python process with PID: 12455
+Killed Python process with PID: 12456
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 1 --run_time 120.0 --enforce-eager > experiments/traces_throughput/qps1/Qwen-4B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12458
+Killed Python process with PID: 12459
+Killed Python process with PID: 12460
+Killed Python process with PID: 12461
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 1 --run_time 120.0 > experiments/traces_throughput/qps1/Llama-7B_sync 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12463
+Killed Python process with PID: 12464
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --async_load --qps 1 --run_time 120.0 > experiments/traces_throughput/qps1/Llama-7B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --fast_start --async_load --persist_cudagraph --load_graph --qps 1 --run_time 120.0 > experiments/traces_throughput/qps1/Llama-7B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 1 --run_time 120.0 --enforce-eager > experiments/traces_throughput/qps1/Llama-7B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12010
+Killed Python process with PID: 12526
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 2 --run_time 60 > experiments/traces_throughput/qps2/Qwen-4B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --async_load --qps 2 --run_time 60 > experiments/traces_throughput/qps2/Qwen-4B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --fast_start --async_load --persist_cudagraph --load_graph --qps 2 --run_time 60 > experiments/traces_throughput/qps2/Qwen-4B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 2 --run_time 60 --enforce-eager > experiments/traces_throughput/qps2/Qwen-4B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 2 --run_time 60 > experiments/traces_throughput/qps2/Llama-7B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --async_load --qps 2 --run_time 60 > experiments/traces_throughput/qps2/Llama-7B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --fast_start --async_load --persist_cudagraph --load_graph --qps 2 --run_time 60 > experiments/traces_throughput/qps2/Llama-7B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 2 --run_time 60 --enforce-eager > experiments/traces_throughput/qps2/Llama-7B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 5 --run_time 60 > experiments/traces_throughput/qps5/Qwen-4B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --async_load --qps 5 --run_time 60 > experiments/traces_throughput/qps5/Qwen-4B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --fast_start --async_load --persist_cudagraph --load_graph --qps 5 --run_time 60 > experiments/traces_throughput/qps5/Qwen-4B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 5 --run_time 60 --enforce-eager > experiments/traces_throughput/qps5/Qwen-4B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 5 --run_time 60 > experiments/traces_throughput/qps5/Llama-7B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --async_load --qps 5 --run_time 60 > experiments/traces_throughput/qps5/Llama-7B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --fast_start --async_load --persist_cudagraph --load_graph --qps 5 --run_time 60 > experiments/traces_throughput/qps5/Llama-7B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 5 --run_time 60 --enforce-eager > experiments/traces_throughput/qps5/Llama-7B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12010
+Killed Python process with PID: 12748
+Killed Python process with PID: 12750
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 6 --run_time 60 > experiments/traces_throughput/qps6/Qwen-4B_sync 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12750
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --async_load --qps 6 --run_time 60 > experiments/traces_throughput/qps6/Qwen-4B_async 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12750
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --fast_start --async_load --persist_cudagraph --load_graph --qps 6 --run_time 60 > experiments/traces_throughput/qps6/Qwen-4B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12750
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 6 --run_time 60 --enforce-eager > experiments/traces_throughput/qps6/Qwen-4B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 6 --run_time 60 > experiments/traces_throughput/qps6/Llama-7B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --async_load --qps 6 --run_time 60 > experiments/traces_throughput/qps6/Llama-7B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --fast_start --async_load --persist_cudagraph --load_graph --qps 6 --run_time 60 > experiments/traces_throughput/qps6/Llama-7B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 6 --run_time 60 --enforce-eager > experiments/traces_throughput/qps6/Llama-7B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 7 --run_time 60 > experiments/traces_throughput/qps7/Qwen-4B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --async_load --qps 7 --run_time 60 > experiments/traces_throughput/qps7/Qwen-4B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --fast_start --async_load --persist_cudagraph --load_graph --qps 7 --run_time 60 > experiments/traces_throughput/qps7/Qwen-4B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 7 --run_time 60 --enforce-eager > experiments/traces_throughput/qps7/Qwen-4B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 7 --run_time 60 > experiments/traces_throughput/qps7/Llama-7B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --async_load --qps 7 --run_time 60 > experiments/traces_throughput/qps7/Llama-7B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --fast_start --async_load --persist_cudagraph --load_graph --qps 7 --run_time 60 > experiments/traces_throughput/qps7/Llama-7B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 7 --run_time 60 --enforce-eager > experiments/traces_throughput/qps7/Llama-7B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 8 --run_time 60 > experiments/traces_throughput/qps8/Qwen-4B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --async_load --qps 8 --run_time 60 > experiments/traces_throughput/qps8/Qwen-4B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --fast_start --async_load --persist_cudagraph --load_graph --qps 8 --run_time 60 > experiments/traces_throughput/qps8/Qwen-4B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 8 --run_time 60 --enforce-eager > experiments/traces_throughput/qps8/Qwen-4B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 8 --run_time 60 > experiments/traces_throughput/qps8/Llama-7B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --async_load --qps 8 --run_time 60 > experiments/traces_throughput/qps8/Llama-7B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --fast_start --async_load --persist_cudagraph --load_graph --qps 8 --run_time 60 > experiments/traces_throughput/qps8/Llama-7B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 8 --run_time 60 --enforce-eager > experiments/traces_throughput/qps8/Llama-7B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 9 --run_time 60 > experiments/traces_throughput/qps9/Qwen-4B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --async_load --qps 9 --run_time 60 > experiments/traces_throughput/qps9/Qwen-4B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --fast_start --async_load --persist_cudagraph --load_graph --qps 9 --run_time 60 > experiments/traces_throughput/qps9/Qwen-4B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Qwen-4B --qps 9 --run_time 60 --enforce-eager > experiments/traces_throughput/qps9/Qwen-4B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 9 --run_time 60 > experiments/traces_throughput/qps9/Llama-7B_sync 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --async_load --qps 9 --run_time 60 > experiments/traces_throughput/qps9/Llama-7B_async 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --fast_start --async_load --persist_cudagraph --load_graph --qps 9 --run_time 60 > experiments/traces_throughput/qps9/Llama-7B_with_cuda_graph 2>&1
+Killed Python process with PID: 12010
+python3 scripts/scheduler_ahead.py --batch_size 0 --model_name Llama-7B --qps 9 --run_time 60 --enforce-eager > experiments/traces_throughput/qps9/Llama-7B_without_cuda_graph 2>&1
+Killed Python process with PID: 12010
                                     TTFT_99  throughput
 mode                                                   
 Llama-7B_async_qps_1               0.923902    0.803202
